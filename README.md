@@ -9,4 +9,4 @@ A few python scripts, which you may &lt;3 to test.
 
 - ###### loXract
 
-  > This is a script to extract and merge data from all sniffed packets of a pcap-type file to a single output with with the extension `__filename__.out`.
+  > This is a script to extract and merge data from all sniffed packets of a pcap-type file to a single output with with the extension `__filename__.out`. Where, you may later use tools like `foremost; binwalk; strings; ~etc~`.
