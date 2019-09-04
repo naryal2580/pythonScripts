@@ -66,6 +66,8 @@ def caps_input(prompt='Caps. Input'):
     inp_str = ''
     while 1:
         char = getch().upper()
+        if 'decode' in dir(char):
+            char = char.decode()
         if char == '\r':
             print('')
             break
@@ -80,7 +82,7 @@ def caps_input(prompt='Caps. Input'):
             print('\r{}'.format(rst+prompt), end='')
             inp_str = ''
             continue
-        elif char == '\x7f':
+        elif char == '\x7f' or char == '\x08':
             print('{}\r'.format('\b'*len(inp_str)+' '*len(inp_str)), end='',
                   flush=True)
             print('\r{}'.format(rst+prompt), end='', flush=True)
