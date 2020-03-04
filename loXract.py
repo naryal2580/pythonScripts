@@ -56,7 +56,7 @@ def banner():
 
 
 def main(pcapFileNames):
-    print(info('Started [at] {}\n'.format(fetchFormattedTime())))
+    print(info('Started [at] {}\n'.format(fetchFormatedTime())))
     try:
         for pcapFileName in pcapFileNames:
             print(info('Opening File -> {}'.format(pcapFileName)))
