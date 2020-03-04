@@ -27,8 +27,8 @@ Examples:
 __author__ = 'naryal2580'
 __version__ = 'v0.7'
 
-from naryal2580.style import good, info, coolInput, coolExit, \
-  fetchFormattedTime, bad
+from stoyled import good, info, coolInput, coolExit, \
+  fetchFormatedTime, bad
 from scapy.all import rdpcap, Raw
 from docopt import docopt
 

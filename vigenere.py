@@ -31,7 +31,7 @@ Examples:
 __author__ = 'naryal2580'
 __version__ = 'v0.4'
 
-from naryal2580.style import bold, purple_l, rst, italic, green_l, red_l, \
+from stoyled import bold, purple_l, rst, italic, green_l, red_l, \
  bad, good, info, coolInput
 from getch import getch
 from string import ascii_uppercase
